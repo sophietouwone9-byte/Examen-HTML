@@ -401,6 +401,10 @@ footer {
         font-size: 15px;
     }
 
+    .containt{
+        background-size: 220%;
+    }
+
     .btn1{
         width: 50%;
         font-size: 15px;
@@ -447,4 +451,5 @@ footer {
     footer{
         height: 170px;
     }
+
 }
