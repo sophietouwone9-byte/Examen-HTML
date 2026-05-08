@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/reservation.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Playfair:ital,opsz,wght@0,5..1200,300..900;1,5..1200,300..900&display=swap"
+        rel="stylesheet">
+    <title>Document</title>
+</head>
+
+<body>
+    <header class="header">
+        <div class="container header-inner">
+            <a href="index.html" class="brand">
+                <div class="brand-text">
+                    <strong><i class="fa-solid fa-utensils"></i> TÉRANGA FOOD</strong>
+                </div>
+            </a>
+            <input type="checkbox" id="menuToggle" class="menu-checkbox" />
+            <label for="menuToggle" class="menu-toggle" aria-label="Ouvrir le menu">
+                <span></span>
+            </label>
+            <nav class="nav">
+                <a href="index.html">Accueil</a>
+                <a href="menu.html">Menu</a>
+                <a href="apropos.html">À propos</a>
+                <a href="galerie.html">Galerie</a>
+                <a href="reservation.html" class="acc">Réservation</a>
+            </nav>
+        </div>
+    </header>
+    <div class="reserver">
+        <h1>Réserver une table</h1>
+    </div>
+    <form action="">
+        <div class="forms">
+            <div class="premier">
+                <label for="nc">Nom complet</label>
+                <input type="text" placeholder="Ex: Aminata Diallo" id="nc">
+                <label for="nt">Numéro de téléphone</label>
+                <input type="text" placeholder=" +221 77 000 00 00" id="nt">
+                <label for="h">Heure</label>
+                <input type="text" id="h">
+            </div>
+            <div class="premier">
+                <label for="ae">Adresse e-mail</label>
+                <input type="text" placeholder="email@exemple.com" id="ae">
+                <label for="ddr">Date de réservation</label>
+                <input type="text" id="ddr">
+                <label for="np">Nombre de personnes</label>
+                <input type="text" id="np">
+            </div>
+        </div>
+        <div class="mess">
+            <label for="m">Message</label>
+            <textarea name="" id="m" placeholder="Informations suplémentaires..."></textarea>
+        </div>
+    </form>
+    <footer>
+        <div class="foot">
+            <div class="teranga">
+                <h1><i class="fa-solid fa-utensils"></i> TERANGA FOOD</h1>
+                <p>123 Avenue Bourguiba <br>Dakar, Sénégal <br>+221 33 000 00 00 <br>contact@terangafood.sn</p>
+            </div>
+            <div class="horaire">
+                <h1>Horaires d'ouvertures</h1>
+                <p>Lun - Ven : 11h - 22h <br>Samedi : 10h - 23h <br>Dimanche : 12h - 21h</p>
+            </div>
+            <div class="reseaux">
+                <h1>Suivez-nous</h1>
+                <p><i class="fa-brands fa-facebook"></i> <br><i class="fa-brands fa-instagram"></i> <br><i
+                        class="fa-brands fa-whatsapp"></i></p>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>© 2026 TERANGA FOOD. Tous droits réservés.</p>
+        </div>
+    </footer>
+</body>
+
+</html>
