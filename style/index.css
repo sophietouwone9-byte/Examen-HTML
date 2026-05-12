@@ -170,8 +170,12 @@ header {
     font-size: large;
     padding: 10px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    transition: transform 0.2s ease;
 }
 
+.btn:hover{
+    transform: translateY(-8px);
+}
 .btn1 {
     background-color: #FBBF21;
     color: #7C2D12;

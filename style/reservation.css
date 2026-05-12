@@ -186,7 +186,25 @@ textarea {
     display: block;
 }
 
+.res{
+    width: 97%;
+    margin-left: 1.5%;
+    height: 40px;
+    border-radius: 10px;
+    border: none;
+    background-color: #7C2D12;
+    color: white;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    transition: transform 0.2s ease;
+}
+
+.res:hover {
+  transform: translateY(-8px);
+}
+
 footer {
+    margin-top: 20px;
     background-color: #7C2D12;
     height: 300px;
     padding: 20px;
